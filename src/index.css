@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h3 {
+    @apply font-mono font-semibold text-sky-300;
+  }
+}
+
+@layer components {
+  .card {
+    @apply text-black dark:text-white whitespace-normal break-words rounded-lg bg-white dark:bg-slate-800 p-4 font-sans text-sm font-normal shadow-lg transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .center {
+    @apply flex justify-center items-center;
+  }
+}
